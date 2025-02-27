@@ -1,0 +1,12 @@
+.footer{
+    animation: hello 1s linear 3s backwards;
+}
+  
+  @keyframes hello{
+    from{
+     opacity: 0;
+    }
+    to{
+     opacity: 1;
+    }
+  }

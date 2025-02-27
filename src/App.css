@@ -1,0 +1,64 @@
+.taskcontainer{
+  animation: hello 900ms linear 2s backwards;
+}
+
+@keyframes hello{
+  from{
+   opacity: 0;
+  }
+  to{
+   opacity: 1;
+  }
+}
+
+.boxes{
+  animation: hay 800ms linear 500ms backwards;
+}
+
+@keyframes hay{
+  from{
+   position: relative;
+   top: 12px;
+   opacity: 0;
+  }
+  to{
+   position: relative;
+   top: 0;
+   opacity: 1;
+  }
+}
+
+.addtask{
+  animation: yup 800ms linear 1s backwards;
+}
+
+@keyframes yup{
+  from{
+   position: relative;
+   top: 12px;
+   opacity: 0;
+  }
+  to{
+   position: relative;
+   top: 0;
+   opacity: 1;
+  }
+}
+
+.todoText{
+  overflow: auto;
+  
+}
+
+@media only screen and (max-width: 400px) {
+  .todoform{
+    flex-direction: column;
+    justify-items: start;
+    justify-content: start;
+  }
+}
+
+::-webkit-scrollbar { width: 10px; height: 5px; }
+::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px;}
+::-webkit-scrollbar-thumb { background: #888; border-radius: 10px;} 
+::-webkit-scrollbar-thumb:hover { background: #555}
